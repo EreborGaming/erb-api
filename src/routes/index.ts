@@ -1,11 +1,11 @@
 import { Router } from 'express';
 import homeRouter from './home';
-import nftVerification from './nftVerification'
+import multiversexRouter from './multiversexRouter'
 
 const router = Router();
 
 router.use('/', homeRouter);
-router.use('/verify-nft', nftVerification);
+router.use('/multiversex', multiversexRouter);
 
 // Add other routers as the project grows
 // router.use('/another-route', anotherRouter);

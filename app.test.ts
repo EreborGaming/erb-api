@@ -2,7 +2,7 @@ import app from './src/app';
 import { Server } from 'http';
 
 let server: Server;
-const PORT = 3500; // Ensure this is the same port as in your app.ts or server.ts
+const PORT = 3501; // Ensure this is the same port as in your app.ts or server.ts
 
 beforeAll(() => {
   server = app.listen(PORT);
